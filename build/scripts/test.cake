@@ -60,6 +60,7 @@ Task("Run-Unit-Tests")
 
     if (testNames.Count > 0)
     {
+        Information(testResultsDir);
         ReportUnit(testResultsDir);
     }
 })
