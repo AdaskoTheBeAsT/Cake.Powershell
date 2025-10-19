@@ -37,5 +37,6 @@
         <file src="net8.0/Cake.Powershell.deps.json" target="lib/net8.0" />
 
         <file src="LICENSE" />
+	    <file src="..\docs\README.md" />
     </files>
 </package>
